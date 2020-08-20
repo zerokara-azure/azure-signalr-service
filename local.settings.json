@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<STORAGE_CONNECTION_STRING>",
+    "AzureCosmosDBConnectionString": "<Cosmos DBアカウントのプライマリ接続文字列>",
+    "AzureCosmosDBMasterKey": "<Cosmos DBアカウントのプライマリキー>",
+    "AzureSignalRConnectionString": "<SignalR Serviceインスタンスのプライマリ接続文字列>",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+  },
+  "Host" : {
+    "LocalHttpPort": 7071,
+    "CORS": "http://localhost:8080",
+    "CORSCredentials": true
+  }
+}
