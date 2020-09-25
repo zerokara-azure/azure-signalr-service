@@ -4,7 +4,9 @@
   "description": "",
   "main": "setup.js",
   "scripts": {
-    "setup": "node setup.js"
+    "start": "lite-server --baseDir=\"public\"",
+    "setup": "node setup.js",
+    "update-data": "node update.js"
   },
   "keywords": [],
   "author": "",
